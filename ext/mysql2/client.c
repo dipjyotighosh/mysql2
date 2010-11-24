@@ -1,6 +1,7 @@
 #include <mysql2_ext.h>
 #include <client.h>
 #include <errno.h>
+#include <stdio.h>
 
 VALUE cMysql2Client;
 extern VALUE mMysql2, cMysql2Error;
